@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Whois</title>
+    <meta name="author" content="arnaudetraph" />
+    <meta name="description" content="Illustration" />
+    <meta name="keywords" content="WebSockets" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Get fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@180&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Get Sweetalert2 package -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- Link main script -->
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+    <!-- particles.js container -->
+    <div class="flex-container">
+      <div id="particles-js"></div>
+      <div class="box">
+        <h1>Whois</h1>
+        <div class="form__group field">
+            <input type="input" id="inputId" class="form__field" placeholder="Name" name="inputId" id='name' required onkeypress="checkIfEmpty(event)"/>
+            <label for="inputId" class="form__label">Nom de domaine</label>
+         </div>
+         <div>
+          <p id=dns></p>
+         </div>
+      </div>
+    </div>
+
+    <!-- Get particles.js package -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Link particles script -->
+    <script src="./script.js"></script>
+
+  </body>
+</html>

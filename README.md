@@ -1,6 +1,4 @@
 
-permalink: /src/main/java/com/arnaudetraphael/whois/WebSocket/web/index.html
-
 # Whois
 
 Projet développé dans le cadre de la L3 Informatique (UPPA) pour les cours Technologie Orientée Objet et Conception d'Applications Internet.

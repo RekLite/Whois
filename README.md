@@ -1,6 +1,5 @@
----
+
 permalink: /src/main/java/com/arnaudetraphael/whois/WebSocket/web/index.html
----
 
 # Whois
 
